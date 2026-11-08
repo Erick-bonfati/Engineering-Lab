@@ -1,0 +1,19 @@
+# Nunca versionar segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências geradas
+vendor/
+node_modules/
+
+# Temporários/logs
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+
+# IDE pessoal: manter apenas configurações compartilháveis
+.vscode/*.code-snippets
